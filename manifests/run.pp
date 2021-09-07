@@ -144,7 +144,7 @@ define docker::run(
   Optional[Boolean] $remove_container_on_stop           = true,
   Optional[Boolean] $remove_volume_on_start             = false,
   Optional[Boolean] $remove_volume_on_stop              = false,
-  Optional[Integer] $stop_wait_time                     = 0,
+  Optional[Integer] $stop_wait_time                     = 5,
   Optional[String]  $syslog_identifier                  = undef,
   Optional[Boolean] $read_only                          = false,
   Optional[String]  $health_check_cmd                   = undef,
