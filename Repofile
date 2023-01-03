@@ -1,0 +1,1 @@
+{"description": "The Puppet Docker repository", "maintainers": ["platform-ops"], "checks": ["build", "sonar"]}
